@@ -23,7 +23,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Welcome All");
+  res.send("just checking my connecting string");
 });
 
 app.use("/api", router);
